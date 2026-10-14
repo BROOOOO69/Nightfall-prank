@@ -1,0 +1,67 @@
+@echo off
+setlocal EnableDelayedExpansion
+color 0A
+title PROJECT NIGHTFALL - SIMULATION
+mode con: cols=78 lines=28
+cls
+
+echo.
+echo  ==============================================================
+echo                  PROJECT NIGHTFALL
+echo                    RESTRICTED ACCESS
+echo  ==============================================================
+echo.
+timeout /t 2 >nul
+
+echo  [*] Booting simulation engine...
+timeout /t 2 >nul
+echo  [*] Establishing virtual connection...
+timeout /t 2 >nul
+echo  [*] Generating fictional encryption keys...
+timeout /t 2 >nul
+echo.
+echo  [OK] SIMULATION INITIALIZED
+echo.
+timeout /t 2 >nul
+
+echo  ANALYZING VIRTUAL SYSTEM...
+for /L %%i in (1,1,10) do (
+    set /a progress=%%i*10
+    echo  [!progress!%%] Processing simulated data...
+    ping 127.0.0.1 -n 2 >nul
+)
+
+echo.
+echo  ==============================================================
+echo                 CLASSIFIED MESSAGE FOUND
+echo  ==============================================================
+echo.
+timeout /t 3 >nul
+
+echo  ACCESS GRANTED.
+echo.
+echo  Subject has entered the simulation.
+echo.
+timeout /t 3 >nul
+cls
+color 0C
+
+echo.
+echo  !!! SECURITY ALERT !!!
+echo.
+echo  YOUR COMPUTER HAS BEEN...
+echo.
+timeout /t 3 >nul
+cls
+color 0E
+
+echo.
+echo  P R A N K E D !!!
+echo.
+echo  HAHAHAHAHA YOU IDIOT
+echo.
+echo  Relax. This was only a visual simulation.
+echo  No files accessed. No passwords collected.
+echo.
+pause
+exit
